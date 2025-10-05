@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Calendar, Linkedin, Mail, MapPin, Phone, User } from 'lucide-react';
 import InfoCard from '../ui/InfoCard';
+import parthivImage from '../../images/Nayan.jpeg';
 
 const iconSize = 24;
 const mobileIconSize = 34;
@@ -37,7 +38,7 @@ export default function About() {
           >
             <div className="w-full max-w-md mx-auto">
               <img
-                src="/src/images/parthiv.png"
+                src={parthivImage}
                 alt="Nayan Prajapati"
                 className="w-full h-auto rounded-lg shadow-xl"
               />
