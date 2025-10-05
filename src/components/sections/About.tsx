@@ -37,7 +37,7 @@ export default function About() {
           >
             <div className="w-full max-w-md mx-auto">
               <img
-                src="/src/images/Nayan.jpeg"
+                src="/src/images/parthiv.png"
                 alt="Nayan Prajapati"
                 className="w-full h-auto rounded-lg shadow-xl"
               />
